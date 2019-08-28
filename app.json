@@ -1,61 +1,26 @@
 {
   "pages": [
-    
-    "page/component/index/index",
-    "page/component/category/category",
-    "page/component/cart/cart",
-    "page/component/user/user",
-    "page/component/address/address",
-    "page/component/orders/orders",
-    "page/component/details/details",
-    "page/component/search/search",
-    "page/component/list/list"
+<<<<<<< HEAD
+    "pages/index/index"
   ],
   "window": {
-    "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "零食商贩",
-    "navigationBarBackgroundColor": "#AB956D",
-    "backgroundColor": "#eeeeee",
-    "enablePullDownRefresh": true
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#bde51b",
+    "navigationBarTitleText": "想你所想",
+    "navigationBarTextStyle": "white"
+=======
+    
+    "pages/forEach-wxcharts/forEach-wxcharts",
+    "pages/projectsExamples/projectsExamples",
+    "pages/eachartsDemo/eachartsDemo",
+    "pages/newTu/newTu"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+>>>>>>> 62cffca5cb27f47802f907e662ae13ff688f583e
   },
-  "tabBar": {
-    "color": "#b7b7b7",
-    "selectedColor": "#AB956D",
-    "borderStyle": "white",
-    "backgroundColor": "#ffff",
-    "list": [
-      {
-        "pagePath": "page/component/index/index",
-        "iconPath": "image/12.png",
-        "selectedIconPath": "image/11.png",
-        "text": "主页"
-      },
-      {
-        "pagePath": "page/component/category/category",
-        "iconPath": "image/22.png",
-        "selectedIconPath": "image/21.png",
-        "text": "分类"
-      },
-      {
-        "pagePath": "page/component/cart/cart",
-        "iconPath": "image/32.png",
-        "selectedIconPath": "image/31.png",
-        "text": "购物车"
-      },
-      {
-        "pagePath": "page/component/user/user",
-        "iconPath": "image/42.png",
-        "selectedIconPath": "image/41.png",
-        "text": "我的"
-      }
-    ]
-  },
-  "networkTimeout": {
-    "request": 10000,
-    "connectSocket": 10000,
-    "uploadFile": 10000,
-    "downloadFile": 10000
-  },
-  "debug": false,
   "sitemapLocation": "sitemap.json"
 }

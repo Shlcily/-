@@ -1,0 +1,27 @@
+<!--pages/newTu/newTu.wxml-->
+<view class="detail" style="{{contentEmpty}}">
+  <!-- top  -->
+  <view class='topConatir'>
+    <view class='totalNumTxt'>总计</view>
+    <view class='eachartsContair' style='height:{{canvasHeight}}px;'>
+     <ec-canvas id="mychart-dom-multi-pie" canvas-id="mychart-multi-pie" ec="{{ ecBar }}"></ec-canvas>
+    </view>
+  </view>
+  <!--  bottom  -->
+  <!-- 方案一：显示饼图图表 -->
+  <view class='bottomConatir'>
+    <view class='totalNumTxt' style='padding-top:10rpx;'>站点统计</view>
+    <view wx:if='{{storeLists.length!=0}}' style='height:{{bottomHeight}}rpx;'>
+      <view class='storesLiist' wx:for="{{storeLists}}" wx:key='{{index}}'>
+        <view style='width:340rpx;height:240rpx;display:block;'>
+          <canvas class="canvas" canvas-id="ringGraph{{index}}" style='display:block;'></canvas>
+        </view>
+        <view class='iconTitle storesText'>{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 因为Canvas的层级太高，因此使用 cover-view标签 -->
+<cover-view class="btnFixed">
+  <button class="btnChange" bindtap='activeType'>其他礼品</button>
+</cover-view>

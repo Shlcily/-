@@ -1,0 +1,44 @@
+/* pages/eachartsDemo/eachartsDemo.wxss */
+.topContair{
+  width: 100%;
+  height: 400rpx;
+}
+.EachartsContair{
+  width: 100%;
+  height: 300rpx;
+  /* background: paleturquoise; */
+  display:flex; 
+  flex-direction:row;
+  justify-content:space-around;
+}
+.topLeft{
+  width: 42%;
+  height: 100%;
+  /* background: palegoldenrod; */
+}
+.topRight{
+  width: 42%;
+  height: 100%;
+  /* background: peachpuff; */
+}
+
+
+
+/* wxcharts的使用 */
+.bottomContair{
+  width: 100%;
+  height: 600rpx;
+  /* background: peachpuff; */
+}
+.Text{
+  height: 2;
+  line-height: 2;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+/* 记得给canvas宽高，否则显示为空白 */
+.canvas {
+  width: 310px;
+  height: 200px;
+}
