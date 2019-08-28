@@ -1,23 +1,28 @@
 {
-	"description": "项目配置文件",
+	"description": "项目配置文件。",
 	"packOptions": {
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.6.6",
+	"libVersion": "2.0.4",
 	"appid": "wxaa2cf685ecd0f92c",
-	"projectname": "miniprogram-test-1",
-	"debugOptions": {
-		"hidedInDevtools": []
-	},
+	"projectname": "%E9%9B%B6%E9%A3%9F%E5%95%86%E5%9F%8E",
 	"isGameTourist": false,
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
@@ -27,6 +32,10 @@
 			"list": []
 		},
 		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
 			"current": -1,
 			"list": []
 		},
