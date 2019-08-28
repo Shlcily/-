@@ -1,18 +1,13 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/address/address",
-    "pages/confirm/confirm",
-    "pages/detail/detail"
+    "pages/welcome/welcome"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "鲜花订购",
-    "navigationBarBackgroundColor": "#FFFFFF",
-    "backgroundColor": "#F2f2f2",
-    "enablePullDownRefresh": true
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"
 }
